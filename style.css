@@ -5,11 +5,12 @@ body{
 }
 #Shopping-Container{
     width: 400px;
-    height: 300px;
+    height: max-content;
     border: 1px solid black;
     margin: auto;
     margin-top: 8%;
     border-radius: 20px;
+    padding: 10px;
 }
 #newItem{
     padding: 4px;
@@ -34,10 +35,16 @@ button{
     margin: 5px;
 }
 #shoppingList{
-    width: 30%;
+    width: 80%;
 }
 
 .purchased {
     text-decoration: line-through;
     background-color: #ddd;
+    height: max-content;
+}
+
+button {
+    background-color: rgba(0, 0, 255, 0.645);
+    color: white;
 }
